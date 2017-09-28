@@ -63,6 +63,7 @@ See http://aws.amazon.com/iam/ for more details on setting up AWS identities.
       }
     }
 
+[source, ruby]
     input {
       cloudwatch {
         namespace => "AWS/EBS"
@@ -72,6 +73,7 @@ See http://aws.amazon.com/iam/ for more details on setting up AWS identities.
       }
     }
 
+[source, ruby]
     input {
       cloudwatch {
         namespace => "AWS/RDS"
